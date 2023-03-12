@@ -8,8 +8,8 @@ BTU_g = v_g*BTU1
 BTU2 = 75700 #1 gallon of ethanol contains 75,700 BTUs of energy
 v_e = BTU_g/BTU2 #1 gallon ethanol
 price = v_g*3 #in dollars USA
-print(f'volume of gasoline in liters: {v_l}, '
-      f'barrels of oil: {n_brrls_of_oil}, '
-      f'volume of carbon dioxide: {v_CO2},'
-      f'equivalent volume of ethanol (gallons): {v_e},'
+print(f'volume of gasoline in liters: {v_l}, \n'
+      f'barrels of oil: {n_brrls_of_oil}, \n'
+      f'volume of carbon dioxide: {v_CO2}, \n'
+      f'equivalent volume of ethanol (gallons): {v_e}, \n'
       f'price: {price}')
